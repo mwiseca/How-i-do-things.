@@ -1,0 +1,10 @@
+This is a C program that displays the binary numbers as Hello world. It is not hard to do.
+First get the decimal number for the letter you want off the Ascii table. A character will have a combination of 8 zeros and ones.
+On the left side a upper case will be 01 a lower case 011 The number sequence is. 128 64 32 16 8 4 2 1
+                                                                                   0   0  0  0 0 0 0 0 
+Notice that the numbers double as they go from right to left.
+What i do is if its a lower case character the 0s under 64 and 32 become ones. You have 96 subtract The ascii number from 96. if its
+101 there is 5 remaining that means the zeros under 1 and 4  become ones. You have 01100101
+Each 0 or 1 is a bit 8 bits make a byte. In the program there are more bytes than letters as one is needed for a space period and new line character.
+The %c is a format specifier. The 0b is used to specify a binary number in C.
+

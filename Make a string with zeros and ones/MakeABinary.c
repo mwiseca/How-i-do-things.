@@ -13,7 +13,7 @@ int main(){
     char num [10];
     int n;
     while(1){
-        printf("Enter the number 65 and up for a letter x to exit.\n");
+        printf("Enter the number 65 to 122 for a letter x to exit.\n");
 	fgets(num,10,stdin);
 	num[strcspn(num,"\n")]=0;
 	if(strlen(num) >= 9){
@@ -22,7 +22,7 @@ int main(){
 	   break;
 	}
         n = atoi(num);
-    	if(n <= 64){
+    	if(n <= 64 || n >= 123) {
 	    printf("That is not a valid number start over.\n");
 	    continue;
         }	    

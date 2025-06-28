@@ -1,10 +1,11 @@
 This shows how i use fgets for integers instead of scanf.
+All files display the number entered + 1.
 
 the easiest is atoi its used to convert a string to an integer.
 It's simple and best used when you do not need to use 0.
 The 'if(strlen(number) >= 9){' is used to prevent 
-having to press enter twice when using that method of
-flushing the input buffer.
+having to press enter twice when using the getc while loop to
+flush the input buffer.
 
 For better error checking strtol is used to convert a string to an integer.
 It's more complex.

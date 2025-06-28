@@ -1,1 +1,16 @@
+This shows how i use fgets for integers instead of scanf.
+
+the easiest is atoi its used to convert a string to an integer.
+It's simple and best used when you do not need to use 0.
+The 'if(strlen(number) >= 9){' is used to prevent 
+having to press enter twice when using that method of
+flushing the input buffer.
+
+For better error checking strtol is used to convert a string to an integer.
+It's more complex.
+
+if the input buffer is not flushed.
+The 'if(errno == ERANGE){' is used if the user enters to many digits.
+I prefer using fgets to scanf so i use these and try to use atoi as its simpler.
+As long as i dont need 0.
 

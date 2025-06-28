@@ -1,4 +1,4 @@
-This shows how i use fgets for integers instead of scanf.
+This shows how i use fgets for integers instead of scanf in C.
 All files display the number entered + 1.
 
 the easiest is atoi its used to convert a string to an integer.

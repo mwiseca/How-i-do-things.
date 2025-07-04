@@ -14,5 +14,6 @@ if the input buffer is not flushed.
 The 'if(errno == ERANGE){' is used if the user enters to many digits.
 I prefer using fgets to scanf so i use these and try to use atoi as its simpler.
 As long as i dont need 0.
+
 The strtolWhiteSpace.c lets the users know if they entered spaces between numbers.
 It uses a hexadecimal number to keep it simple.

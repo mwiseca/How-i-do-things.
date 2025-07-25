@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <errno.h>
 void flush(){
     int clear;     
     while ((clear = getc(stdin)) != 0x0A && clear != EOF) {     
@@ -23,7 +22,6 @@ int main(){
         if(strcmp(num, "x")==0){
             break;
         }
-        errno = 0;
         h = strtol(num,&ptr,10);
         if(h < 0  || h > 255){
             printf("Enter a min of 0 max of 255.\n");

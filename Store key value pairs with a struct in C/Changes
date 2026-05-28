@@ -3,3 +3,9 @@ A file was added to demonstrate how i use a struct to make a simple map in C.
 I like this way better then the 2 arrays as it is closer to a C++ map making it easer to add
 to it.
 May 28 2026.
+
+A new file was added. structMapNoPointer.c.
+It uses a regular string variable.
+This is the first one i used but it did not work the way i wanted.
+The pointer uses less memory than the original.
+May 28 2026.

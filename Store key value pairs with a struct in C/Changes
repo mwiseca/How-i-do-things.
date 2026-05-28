@@ -1,1 +1,5 @@
 
+A file was added to demonstrate how i use a struct to make a simple map in C.
+I like this way better then the 2 arrays as it is closer to a C++ map makeing it easer to add
+to it.
+May 28 2026.

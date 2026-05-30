@@ -46,7 +46,7 @@ int main() {
     
     /*
       The printf statement uses %c prints the integer as a character.
-      The astrerisk before the pointer names dereferences the pointers to get the integer values.
+      The asterisk before the pointer names dereferences the pointers to get the integer values.
       Putting them together, we print each character of the message by
       dereferencing each pointer.
    */

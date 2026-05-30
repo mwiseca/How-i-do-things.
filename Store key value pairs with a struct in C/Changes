@@ -9,3 +9,6 @@ It uses a regular string variable.
 This is the first one i used but it did not work the way i wanted.
 The pointer uses less memory than the original.
 May 28 2026.
+A new file was added. structMapIntKeys.c.
+It has ints as keys. The others have strings as keys.
+May 30 2026.

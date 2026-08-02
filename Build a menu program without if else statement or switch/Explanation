@@ -1,1 +1,3 @@
-
+This is a demo of how i build a menu program using a struct to hold key value pairs.
+The program maps keys to functions.
+I use this as a alternitive to if else statements or switch statements.
